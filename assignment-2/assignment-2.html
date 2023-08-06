@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms Assignment</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <form class ="contact" action="#" method="post">
+            <h1 class="Cheader">Contact Us</h1>
+            <label>Name:<input placeholder="Ex.Juan Dela Cruz" type="text"></label>
+            <br><br>
+            <label>Email: <input class="eml" placeholder="Ex.juandelacruz@gg.com" type="email"></label>
+            <br><br>
+            <label><p>Message:</p> 
+                <textarea placeholder="type here..."></textarea><br><input class = "clic"type="submit"></label>
+        </form>
+
+        <form class ="log" action="#" method="post">
+            <h1 class="Lheader">Login form</h1>
+            <label>Username: <input class = "Uname" placeholder="Ex. juandelacruz@gg.com" type="text"></label>
+            <br><br>
+            <label>Password: <input class="Pword" placeholder="Type your Password Here" type="password"><label> <br><br><input class="lsub" type="submit" value="Login"></label></label>
+        </form>
+
+        <form class="survey" action="#" method="post">
+            <h1 class="Sheader">Survey</h1>
+            <label>Name: <input placeholder="Ex.Juan Dela Cruz" type="text"></label>
+            <br><br>
+            <label>Age: <input class="age" type="number"></label>
+            <br><br>
+            <label>Gender: 
+                <input class = "radio" type="radio" name="Gender" value="Male"> Male
+                <input class = "radio" type="radio" name="Gender" value="Female"> Female
+                <input class = "radio" type="radio" name="Gender" value="Other"> Other
+            </label>
+            <br><br>
+            <label> Which programming languages do you know?
+                
+                <br><input class = "radio"type="checkbox" name="Code" value="Java"> Java
+                <input class = "radio"type="checkbox" name="Code" value="Python"> Python
+                <input class = "radio"type="checkbox" name="Code" value="Html"> Html
+            </label>
+            <br><br>
+            <label> <p>Comments:</p>
+                <textarea placeholder="type here..."></textarea> <br><br><input class="clic"type="submit" value="Submit">
+            </label>
+        </form>
+    </body>
+</html>
